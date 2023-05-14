@@ -1,0 +1,71 @@
+.container{
+    background-color: rgba(153, 153, 153, 0.582);
+    display: flex;
+    width: 300px;
+    height: 500px ;
+    justify-content:center;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin:150px;
+    padding:150px;
+    align-items: center;
+     text-align: center
+ }
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+     
+ }
+body{
+    background-image:url(https://p4.wallpaperbetter.com/wallpaper/594/33/136/drink-bar-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: rgb(255, 196, 196);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border: 2px solid #4989ff;
+  }
+  
+  .button1:hover {
+    background-color: #3d57ff;
+    color: rgb(0, 0, 0);
+  }
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #2a42ff;
+  }
+  
+  .button2:hover {
+    background-color: rgb(37, 81, 255);
+    color: rgb(0, 0, 0);
+  } 
+  .button3:hover {
+    background-color: rgb(67, 111, 255);
+    color: rgb(0, 0, 0);
+  }
+  .button3 {
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border: 2px solid #4980ff;
+  }
+  
+  
+  
+  
+  

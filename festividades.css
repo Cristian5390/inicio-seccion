@@ -1,0 +1,151 @@
+
+h1{
+    font-size: 120px;
+}
+h1{
+    background-color: rgba(200, 200, 200, 0.644);
+    backdrop-filter: blur(5px);
+    display: flex;
+    width: 1500px;
+    height: 5px;
+    justify-content: center;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin: 100px;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+a{
+  text-decoration: none;
+ }
+
+/* justify-content: center; */
+/* align-items: center; */
+
+
+
+
+body {
+    background-image:url(https://media.istockphoto.com/id/850932218/es/foto/superior-de-la-tabla-de-madera-con-luz-naranja-difuminado-de-bar-o-pub-para-fiesta-en-el-fondo.jpg?s=170667a&w=0&k=20&c=5lu1UuSPxehS-TQFpILaZ5lstDx_2veib7Ox1GfF8r4=);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    font-size: 100px;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+h2{
+    background-color: rgba(0, 0, 0, 0.381);
+    backdrop-filter: blur(5px);
+    display: flex;
+    width: 1500px;
+    height: 50px;
+    justify-content: center;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin: 60px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    animation: cambio-color 5s infinite;
+
+}
+
+@keyframes cambio-color {
+  0% {
+    background-color: #264aff;
+  }
+  50% {
+    background-color: #000000;
+  }
+  100% {
+    background-color: #a1aadaf5;
+  }
+  40% {
+    background-color: #94778b;
+  }
+  60% {
+    background-color: #a65ee0;
+  }
+  50% {
+    background-color: #e9ece9;
+  }
+}
+
+
+
+img { 
+    border: 10px solid rgba(0, 0, 0, 0.749);
+    padding: 15px;
+  }
+h{
+    font-size: 100px;
+}
+h{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h{
+    background-color: rgba(0, 0, 0, 0.381);
+    backdrop-filter: blur(5px);
+    display: flex;
+    width: 1500px;
+    height: 50px;
+    justify-content: center;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin: 60px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f5a6ff;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .button1:hover {
+    background-color: #2f423c;
+    color: rgb(2, 2, 2);
+  }
+  
+  .button2 {
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border: 2px solid #ff96f8;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .button2:hover {
+    background-color: #2c464e;
+    color: rgb(3, 2, 2);
+  }

@@ -1,0 +1,124 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;    
+}
+a{
+  text-decoration: none;
+ }
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;    
+  color: white;
+  text-shadow: 1px 1px #000;
+  background-color: #f0f0f0;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 5px #000;
+  animation: cambio-color 5s infinite;
+
+    }
+
+    @keyframes cambio-color {
+      0% {
+        background-color: #000000;
+      }
+      50% {
+        background-color: #d3c187;
+      }
+      100% {
+        background-color: #a1aadaf5;
+      }
+      40% {
+        background-color: #c0a5b8;
+      }
+      60% {
+        background-color: #f8f8f8;
+      }
+      50% {
+        background-color: #e9ece9;
+      }
+    }
+
+
+
+body{
+    background-image:url(https://www.shutterstock.com/image-photo/empty-wooden-bar-counter-defocused-260nw-740571541.jpg);
+        background-size:cover ;
+        background-repeat: no-repeat;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.845);
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: center;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+  animation: color-transition 3s infinite;
+  
+  }
+
+
+  @keyframes color-transition {
+    0% {
+      background-color: #fff;
+    }
+    50% {
+      background-color: #7d9192;
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
+
+
+
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: rgb(255, 196, 196);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: rgb(170, 147, 147); 
+  color: black; 
+  border: 2px solid #89989c;
+}
+
+.button1:hover {
+  background-color: #b3a9a9ee;
+  color: rgb(0, 0, 0);
+}
+.button2 {
+  background-color: rgb(201, 184, 184); 
+  color: black; 
+  border: 2px solid #3e4c50b7;
+}
+
+.button2:hover {
+  background-color: rgba(144, 146, 165, 0.833);
+  color: rgb(0, 0, 0);
+}
+
+
+body{
+  background-image:url(https://www.shutterstock.com/image-photo/empty-wooden-bar-counter-defocused-260nw-740571541.jpg);
+      background-size:cover ;
+      background-repeat: no-repeat;
+}
+
+
